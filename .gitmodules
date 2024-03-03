@@ -1,3 +1,6 @@
 [submodule "nvim"]
 	path = nvim
 	url = https://github.com/KrokoYR/nvim
+[submodule "ansible"]
+	path = ansible
+	url = https://github.com/KrokoYR/ansible
