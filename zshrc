@@ -14,7 +14,7 @@ source $HOME/.bash_profile
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
-export GOOGLE_APPLICATION_CREDENTIALS="~/.config/gcloud/application_default_credentials.json"
+export GOOGLE_APPLICATION_CREDENTIALS="/Users/lopsonbalzhinimaev/.config/gcloud/application_default_credentials.json"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -156,6 +156,9 @@ alias rest="timer 20m && terminal-notifier -message 'Pomodoro'\
         -title 'Break is over! Get back to work 😬'\
         -appIcon '~/Pictures/pumpkin.png'\
         -sound Crystal"
+
+# Bindings
+bindkey -s '^f' 'tmux-sessionizer\n'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

@@ -19,7 +19,11 @@ git clone --recurse-submodules https://github.com/yourusername/dotfiles.git ~/do
 ## Prerequisites
 
 - [Homebrew](https://brew.sh/)
-- [Ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html)
+- Install Ansible using Homebrew:
+
+```bash
+brew install ansible
+```
 
 ## Running the setup
 
